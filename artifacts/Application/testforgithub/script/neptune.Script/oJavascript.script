@@ -1,0 +1,5 @@
+const initText = () => {
+    console.log("blablbla");
+    oTextHeader.setText('Hohoho');
+    console.log("second deploy");
+}
