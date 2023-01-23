@@ -1,0 +1,46 @@
+{
+	"id": "376c7be7-7e7e-4f17-8b67-a851f9c61f88",
+	"createdAt": "2023-01-23T12:32:17.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/kristofferrye/Planet9GitHubTest.git"
+	},
+	"name": "GitHubTest",
+	"description": "Testing GitHub Connection",
+	"ver": "23.1.23.1338",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "7e925cd0-e2a2-4fbe-9bee-359ac8c23f13",
+			"application": "testforgithub",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": []
+}
