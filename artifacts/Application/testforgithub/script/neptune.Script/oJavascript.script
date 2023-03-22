@@ -3,3 +3,19 @@ const initText = () => {
     oTextHeader.setText('Hohoho');
     console.log("second deploy");
 }
+
+/*
+Here is some example code which is considered as bad practice and contains security vulnerabilities like:
+* Cross-Site Scripting (XSS),
+* Code Injection,
+* Lack of Error Handling:
+
+I winder if OpenSSF Scorecard can detect this
+*/ 
+function loadData() {
+  var url = "https://example.com/data?user=" + document.getElementById("user").value;
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", url, false);
+  xhr.send();
+  return xhr.responseText;
+}
